@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		 double x = 3.0;
+		double x = 3.0;
 		 double y = 4.0;
 		 double z = -5.0;
 		 double A, B, C;
@@ -24,7 +24,6 @@ public class main {
 		 B = Math.abs(z);
 		 System.out.println("Valor absoluto de "+ y + " = " + A);
 		 System.out.println("Valor absoluto de "+ z + " = " + B);
-
 	}
 
 }
