@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
     <entry loc="C:\Program Files\Java\zulu21.36.17-ca-jdk21.0.4-win_x64" stamp="1725317493339"/>
+    <entry loc="C:\Users\igork\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706" stamp="1728434296755"/>
     <entry loc="C:\Users\Pichau\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre" stamp="1705817749093"/>
+    <entry loc="C:\Users\igork\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre" stamp="1728434296752"/>
     <entry loc="C:\Users\Pichau\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143" stamp="1705817749097"/>
 </dirs>
