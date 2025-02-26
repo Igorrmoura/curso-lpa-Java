@@ -7,15 +7,16 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int x = sc.nextInt();
+		int senha = sc.nextInt();
 		
-		int soma = 0;
-		while (x != 0) {
-			soma = soma + x;
-		  x = sc.nextInt();
-		   
+		while (senha != 2200) {
+			System.out.println("acesso negado");
+			senha = sc.nextInt();
 		}
-		System.out.println(soma);
+		
+		System.out.println("acesso permitido");	
+		
+
 		
 		sc.close();
 	}
