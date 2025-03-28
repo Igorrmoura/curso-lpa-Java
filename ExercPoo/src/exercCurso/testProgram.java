@@ -12,7 +12,7 @@ public class testProgram {
 		
 		retangulo rect = new retangulo();
 		
-		System.out.println(" Enter rectangle width and height: ");
+		System.out.println("Enter rectangle width and height: ");
 		rect.width = sc.nextDouble();
 		rect.height = sc.nextDouble();
 		
