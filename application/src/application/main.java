@@ -1,9 +1,10 @@
 package application;
 
 import java.util.Locale;
+
 import java.util.Scanner;
 
-import entities.Triangle;
+import entitiess.Triangle;
 
 public class main {
 
