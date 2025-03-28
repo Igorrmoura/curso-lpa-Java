@@ -12,12 +12,14 @@ public class Funcionario {
 		
 		dadosFuncio emp = new dadosFuncio();
 		
+		// entrada de dados do funcionario
 		System.out.print("nome do funcionario: ");
 		emp.name = sc.nextLine();
 		System.out.print("salario: ");
 		emp.GrossSalary = sc.nextDouble();
 		System.out.print("taxa: ");
 		emp.tax = sc.nextDouble();
+		
 		
 		System.out.println();
 		System.out.println("dadosFuncio : " + emp);
