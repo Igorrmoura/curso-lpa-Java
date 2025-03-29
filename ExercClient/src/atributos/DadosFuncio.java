@@ -1,21 +1,21 @@
 package atributos;
 
-public class dadosFuncio {
+public class DadosFuncio {
 	public String name;
-	public double GrossSalary;
+	public double grossSalary;
 	public double tax;
 	
-	public double NetSalary() {
-		return GrossSalary - tax; 
+	public Double netSalary() {
+		return grossSalary - tax; 
 	}
 	
 	public void increaseSalary(double percentage) {
-		GrossSalary += GrossSalary * percentage / 100.0; 
+		grossSalary += grossSalary * percentage / 100.0; 
 		
 	}
 	
 	public String toString() {
-		return name + " , $ " + String.format("%.2f" + NetSalary());
+		return name + " , $ " + String.format("%.2f", netSalary());
 	}
 	
 

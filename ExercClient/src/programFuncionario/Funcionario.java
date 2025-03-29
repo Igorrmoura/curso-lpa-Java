@@ -2,7 +2,7 @@ package programFuncionario;
 
 import java.util.Locale;
 import java.util.Scanner;
-import atributos.dadosFuncio;
+import atributos.DadosFuncio;
 
 public class Funcionario {
 
@@ -10,19 +10,19 @@ public class Funcionario {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		dadosFuncio emp = new dadosFuncio();
+		DadosFuncio emp = new DadosFuncio();
 		
 		// entrada de dados do funcionario
 		System.out.print("nome do funcionario: ");
 		emp.name = sc.nextLine();
 		System.out.print("salario: ");
-		emp.GrossSalary = sc.nextDouble();
+		emp.grossSalary = sc.nextDouble();
 		System.out.print("taxa: ");
 		emp.tax = sc.nextDouble();
 		
 		
 		System.out.println();
-		System.out.println("dadosFuncio : " + emp);
+		System.out.println("dadosFuncio: " + emp);
 		System.out.println();
 		System.out.print("Which percentage to increase salary? ");
 		double percentage = sc.nextDouble();
